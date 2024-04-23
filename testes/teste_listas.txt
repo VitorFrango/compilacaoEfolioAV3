@@ -1,0 +1,5 @@
+int[] nums  # declaração de uma lista de inteiros
+nums = [1, 2, 3]
+add(nums, size(nums), 4)  # adiciona o elemento 4 ao final da lista
+remove(nums, 0)  # remove o primeiro elemento da lista
+print("Elemento removido, nova lista:", nums)

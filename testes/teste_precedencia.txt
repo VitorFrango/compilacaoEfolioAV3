@@ -1,0 +1,4 @@
+# Teste de precedência de operadores
+int a = 5 + 3 * 2       # Deve tratar como 5 + (3 * 2)
+float b = 10 / 2 - 1    # Deve tratar como (10 / 2) - 1
+float c = -3.5 + 2.1    # Deve considerar o sinal em -3.5

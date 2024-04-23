@@ -1,0 +1,4 @@
+int i = 2
+float j = 3.0
+float k = i + j  # k será 5.0, resultado da conversão de i para float e soma
+int m = int(7.9)  # ERRO: atribuição de valor não inteiro a uma variável inteira na declaração

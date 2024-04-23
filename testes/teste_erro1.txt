@@ -1,0 +1,2 @@
+int x = 3.5  # ERRO: não é possívetestel atribuir um float diretamente a uma variável do tipo int
+float y = "texto"  # ERRO: tentativa de atribuir uma string a uma variável do tipo float

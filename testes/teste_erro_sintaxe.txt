@@ -1,0 +1,5 @@
+
+
+if (a > 3 ; # erro de sintaxe, não é possível usar ; para separar as condições
+    print(a)
+

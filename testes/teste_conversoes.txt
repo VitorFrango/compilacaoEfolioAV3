@@ -1,0 +1,6 @@
+int a = 5
+float b = 2.3
+int c = a * b  # ERRO: resultado de multiplicação float não pode ser atribuído diretamente a int
+
+# Correção necessária
+int c = int(a * b)  # correto, explicitamente convertendo o resultado para int

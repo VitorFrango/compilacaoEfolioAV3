@@ -1,0 +1,4 @@
+int x = 10  # x é declarado como inteiro e atribuído o valor 10
+float y = 5.5  # y é declarado como float e atribuído o valor 5.5
+int z  # z é declarado como inteiro e inicializado com 0 por padrão
+float a = 3e2  # a é declarado como float e usa notação científica

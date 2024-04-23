@@ -1,0 +1,13 @@
+int a = 5 // a  # ERRO: operador // só pode ser usado entre inteiros
+float a = 5 // 2.5  # ERRO: operador // só pode ser usado entre inteiros
+int b = 10 % 3.5  # ERRO: operador % só pode ser usado entre inteiros
+
+int x = a  # x é declarado como inteiro e atribuído o valor de a
+float y = 5.5  # y é declarado como float e atribuído o valor 5.5
+int z  # z é declarado como inteiro e inicializado com 0 por padrão
+float a = 3e2  # a é declarado como float e usa notação científica
+
+int i = 2
+float j = 3.0
+float k = i + j  # k será 5.0, resultado da conversão de i para float e soma
+int m = int(7.9)  # ERRO: atribuição de valor não inteiro a uma variável inteira na declaração

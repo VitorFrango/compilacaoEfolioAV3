@@ -1,0 +1,9 @@
+def int g(float x, y):  # ERRO: o tipo de 'y' deve ser declarado explicitamente
+    return x + y
+
+g(1.0, 2)  # ERRO: chamada de função sem especificar tipos adequadamente
+
+def int sum(int x, int y): # ERRO: o tipo de retorno deve ser declarado explicitamente
+    return x + y
+
+sum(1.5, 2)  # ERRO: argumentos de tipo incorreto para a função 'sum'
